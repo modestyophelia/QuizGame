@@ -49,28 +49,28 @@ function App() {
         <View style={styles.buttons}>
           <Button
             color={questionColor}
-            title={QuizList[id].HellBlade}
+            title={QuizList[id].hellBlade}
             onPress={() => {
               setHellBladeCount(hellBladeCount + 1), Next();
             }}
           ></Button>
           <Button
             color={questionColor}
-            title={QuizList[id].Rakuen}
+            title={QuizList[id].rakuen}
             onPress={() => {
               setRakuenCount(rakuenCount + 1), Next();
             }}
           ></Button>
           <Button
             color={questionColor}
-            title={QuizList[id].FranBow}
+            title={QuizList[id].franBow}
             onPress={() => {
               setFranBowCount(franBowCount + 1), Next();
             }}
           ></Button>
           <Button
             color={questionColor}
-            title={QuizList[id].BioshockInfinite}
+            title={QuizList[id].bioshockInfinite}
             onPress={() => {
               setBioshockInfiniteCount(bioshockInfiniteCount + 1), Next();
             }}
@@ -145,7 +145,6 @@ export default App;
 
 const styles = StyleSheet.create({
   quizContent: {
-    justifyContent: "center",
     alignItems: "center",
     backgroundColor: "white",
     margin: "10%",
